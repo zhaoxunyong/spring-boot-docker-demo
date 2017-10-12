@@ -9,4 +9,4 @@
 #mysql:5.6
 
 
-docker run -d --link demo-mysql:mysql --name spring-boot-docker-mysql -p 8080:8080 dave/spring-boot-docker-mysql
+docker run -d --link demo-mysql:mysql --name spring-boot-docker-mysql -p 8080:8080 dave/spring-boot-docker-mysql:1.0.0
